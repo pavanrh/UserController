@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="12573" started-at="2022-08-17T09:27:03 IST" finished-at="2022-08-17T09:27:16 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="12573" started-at="2022-08-17T09:27:03 IST" finished-at="2022-08-17T09:27:16 IST">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@369f73a2]" name="setUpClass" is-config="true" duration-ms="644" started-at="2022-08-17T09:27:04 IST" finished-at="2022-08-17T09:27:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="3830" started-at="2022-08-17T09:27:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that new user is created"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="1328" started-at="2022-08-17T09:27:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user response body matches string"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="1372" started-at="2022-08-17T09:27:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify name field with blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="296" started-at="2022-08-17T09:27:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify address field with blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="456" started-at="2022-08-17T09:27:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user can be updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="233" started-at="2022-08-17T09:27:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify existing user name is updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="225" started-at="2022-08-17T09:27:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify existing user address is updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="213" started-at="2022-08-17T09:27:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify existing user marks is updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="408" started-at="2022-08-17T09:27:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify updated user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="471" started-at="2022-08-17T09:27:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify updating user name with blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="439" started-at="2022-08-17T09:27:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify updating user address with blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="505" started-at="2022-08-17T09:27:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the user is deleted"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="215" started-at="2022-08-17T09:27:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify multiple users are created"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="217" started-at="2022-08-17T09:27:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify multiple username with a blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@369f73a2]" name="runScenario" duration-ms="196" started-at="2022-08-17T09:27:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-17T09:27:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify multiple user address with a blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@369f73a2]" name="tearDownClass" is-config="true" duration-ms="184" started-at="2022-08-17T09:27:15 IST" finished-at="2022-08-17T09:27:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

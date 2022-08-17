@@ -1,0 +1,32 @@
+{
+  "createRequest":{
+    "name":"Bob",
+    "address":"21 jump street",
+    "marks":100
+  },
+  "blankMarks":{
+    "name": "Bob",
+    "address":"21 jump street"
+
+  },
+  "updateRequest":{
+
+    "name":"Prazid",
+    "address":"22 next level jump street",
+    "marks":98
+  },
+  "multipleRequest": [
+    {
+
+      "name":"Pavan",
+      "address": "21 Jump street",
+      "marks": 100
+    },
+    {
+
+      "name":"Sudeep",
+      "address": "22 Jump street",
+      "marks": 80
+    }
+  ]
+}
